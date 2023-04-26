@@ -15,3 +15,18 @@
     right: -150px;
   }
 }
+.MenuPlan {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  
+ 
+  padding: 40px;
+}
+.MenuPlanLink {
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 16pt;
+  color: white;
+}

@@ -1,13 +1,12 @@
 import './Floor.css';
-import './Panorama.css';
 import { Link } from "react-router-dom"; 
 
 function ThirdFloor() {
     
     return (
       <div>
-        <div className='Menu'>
-                <Link className='MenuLink' to="/">Выбор этажа</Link>
+        <div className='MenuPlan'>
+                <Link className='MenuPlanLink' to="/">Выбор этажа</Link>
         </div>
       <svg className="floorSVG" version="1.1" viewBox="0 0 1942.8 1369">
 

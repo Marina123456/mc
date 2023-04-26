@@ -1,15 +1,88 @@
 .Menu {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
-    background-color: white;
-    border: 2px solid #888888;
-    padding: 15px;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 2px white;
 }
 .MenuLink {
-    padding-right: 5px;
-    padding-left: 5px;
-    font-size: 16pt;
-    color: #888888;
+    background-color: rgba(187, 79, 206, 0);
+    margin: 10px;
+    font-size: 14pt;
+    font-weight: normal;
+    color: white;
+}
+.CalcelIcon {
+    width: 35px;
+    display: inline-block;
+    margin-top: 10px;
+    right: -137px;
+    position: relative;
+    
+}
+.BlockInfo{
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 600px;
+    border: 2px solid white;
+    background-color: rgba(187, 79, 206, 0.557);
+    backdrop-filter: blur(30px);  
+    color: white;
+    font-weight: bold;
+}
+.BlockInfoIcon  {
+    position: absolute;
+    z-index: 1000;
+    background-color: rgba(187, 79, 206, 0.557);
+    backdrop-filter: blur(30px);   
+    color: white;
+    font-weight: bold;
+    font-size: 22pt;
+    padding: 20px 30px;
+    border: 2px solid white;
+}
+.BlockInfoPoloska {
+    background-color: white;
+    width: 2px;
+    height: 60px;
+    display: inline-block;
+}
+.BlockInfoName {
+    font-size: 18pt;    
+    margin-top: 100px;
+    margin-left: 50px;
+    border-left: solid 2px white;
+}
+.BlockInfoDescription {
+    font-size: 12pt;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.BlockInfoNameSpan {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.BlockInfoAva {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    border: solid 2px white;
+}
+.BlockInfoFIO {
+    margin-top: -105px;
+    margin-left: 170px;
+}
+.BlockInfoFIORole {
+    font-weight: normal;
 }

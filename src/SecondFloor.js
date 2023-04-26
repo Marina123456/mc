@@ -1,11 +1,10 @@
 import './Floor.css';
-import './Panorama.css';
 import { Link } from "react-router-dom"; 
 function SecondFloor() {
     return (
       <div>
-        <div className='Menu'>
-                <Link className='MenuLink' to="/">Выбор этажа</Link>
+        <div className='MenuPlan'>
+                <Link className='MenuPlanLink' to="/">Выбор этажа</Link>
         </div>
         
       <svg version="1.1" id="Слой_1" className="floorSVG"
