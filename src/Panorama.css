@@ -5,7 +5,7 @@
     color: white;
     width: 100%;
     height: 60px;
-    border-bottom: solid 2px white;
+    
 }
 .MenuLink {
     background-color: rgba(187, 79, 206, 0);
@@ -24,13 +24,14 @@
 }
 .BlockInfo{
     position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
     z-index: 1000;
     top: 0;
     left: 0;
     width: 400px;
-    height: 600px;
-    border: 2px solid white;
-    background-color: rgba(187, 79, 206, 0.557);
+    height: 100%;    
+    background-color: rgba(100, 39, 111, 0.557);
     backdrop-filter: blur(30px);  
     color: white;
     font-weight: bold;

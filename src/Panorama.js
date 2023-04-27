@@ -22,7 +22,10 @@ function Panorama(props) {
       }
     return (
         <div>
-            <div className="BlockInfo" style={{display: isVisible ? 'block' : 'none' }}>
+            <div className="BlockInfo"
+             style={{
+                
+                display: isVisible ? 'block' : 'none' }}>
                 <div className='Menu'>
                     <Link className='MenuLink' to={"/"}>Выбор этажа</Link>
                     <span>/</span>
